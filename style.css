@@ -1,0 +1,84 @@
+﻿body
+{
+    font-family:none;/*make a fancy one*/
+   position:fixed
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    width:560px;
+    height:560px;
+    border:solid black;
+
+}
+.grid div{
+    width:20px;
+    height:20px;
+
+}
+aside{
+    background-color:gold;
+    font-family:'Agency FB';
+    font-size:35px;
+}
+aside:hover{
+    background-color:white;
+}
+.tut{
+
+}
+.wall {
+    background-color: black;
+}
+.pac-man
+{
+    background-color:yellow;
+    border-radius:10px;
+} 
+pacman-raged{
+    background-color:darkred;
+        
+       
+}
+.pac-dot
+{
+
+    border:5px  solid white;
+    box-sizing:border-box;
+    background-color:tomato;
+}
+
+
+.power-pellet
+{
+    background-color:green;
+    border-radius:10px;
+
+}
+.ghosts{
+  background-color:aqua;
+    
+}
+
+.blinky{
+    border:0px;
+    background-color:tomato;
+      
+}
+.inky {
+    border: 0px;
+    background-color:cyan;
+}
+.pinky {
+    border: 0px;
+    background-color:pink;
+}
+.clyde {
+    border: 0px;
+    background-color:orange;
+}
+.scared-ghosts {
+    background-color:aquamarine;
+    border: 0px;
+}
+/* style for the enviroment and the characters  */

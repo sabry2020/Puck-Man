@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Puck-man</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" src="motivation1.jpg"type="image/svg" />
+    <script src="app.js" charset="utf-8"></script>
+  >
+    <!--cookie
+    <script>
+        function getCookie(c_name) {
+            if (document.cookie.length > 0) {
+                c_start = document.cookie.indexOf(c_name + "=");
+                if (c_start != -1) {
+                    c_start = c_start + c_name.length + 1;
+                    c_end = document.cookie.indexOf(";", c_start);
+                    if (c_end == -1)
+                        c_end = document.cookie.length
+                    return unescape(document.cookie.substring(c_start, c_end));
+                }
+            }
+            return ""
+           
+        }
+      
+        function setCookie(c_name, value, expiredays) {
+            var exdate = new Date();
+            exdate.setDate(exdate.getDate() + expiredays);
+            document.cookie = c_name + "=" + escape(value) + ((expiredays == null) ? "" : "; expires=" + exdate.toGMTString());
+        }
+    
+        function checkCookie() {
+            username = getCookie('username');
+            if (username != null && username != "") {
+                alert('Welcome again ' + username + '!');
+            }
+            else {
+                username = prompt('Please enter your name:', "");
+                if (username != null && username != "") {
+                    setCookie('username', username, 365);
+                }
+            }
+        }
+        
+    </script>
+        -->
+</head>
+<body><!--onload check cookie-->
+
+    <div class="grid">  </div>
+
+    <div class="scoreDisplay">Score:<span id="score">0</span></div>
+
+    <div class="tut">
+        <p class="title">part one</p>
+        <h1>Making dates</h1>
+        <h2>Example:</h2>
+        <h3>
+            there is three basic ways to declare a date object <strong>first one </strong>is
+            <code>
+                new Date()
+            </code>
+
+        </h3>
+        <h3>Second one is <code>new Date(year,month,day,hours,minutes,seconds,milliseconds)</code></h3>
+        <aside>Do you know that javascript date object records milliseconds of every single day since <em>1970</em></aside>
+    </div>
+    <div class="tut">
+        <p class="title">part two</p>
+        <h1>Comparing dates</h1>
+        <h2>Example: </h2>
+        <h3>
+            <code class="java-script language">
+                <!--styling effect-->
+                let d1 = new Date();
+                let d2 = new Date();
+                d2.setFullYear(2010, 0, 12);
+
+
+
+                if (d1 > d2)
+                alert('today is after 2010')
+                else
+                alert('today is before 2010')
+            </code>
+            <script>
+                let d1 = new Date();
+                let d2 = new Date();
+                d2.setFullYear(2010, 0, 12);
+
+                //comparing dates
+
+                //if (d1 > d2)
+                                                      //  alert('today is after 2010')
+                                                  //else
+                                                       // alert('today is before 2010')
+
+            </script>
+        </h3>
+
+    </div>
+    <!--template nth-->
+    <div class="tut">
+        <p class="title"> part </p>
+        <h1></h1>
+        <p class="description"></p>
+        <h2>Example:</h2>
+        <h3>
+            <code>
+
+            </code>
+        </h3>
+        <aside>Note:</aside>
+
+
+    </div>
+    <!--template nth-->
+    <div class="tut">
+        <p class="title"> part three </p>
+        <h1></h1>
+        <p class="description"></p>
+        <h2>Example:</h2>
+        <h3>
+            <code>
+
+            </code>
+        </h3>
+        <aside>Note:</aside>
+
+
+    </div>
+    <!--template nth-->
+    <div class="tut">
+        <p class="title"> part </p>
+        <h1></h1>
+        <p class="description"></p>
+        <h2>Example:</h2>
+        <h3>
+            <code class="language-js">
+                let x=name;
+                alert("name");
+            </code>
+        </h3>
+        <aside>Note:</aside>
+
+
+    </div>
+    <!--template nth-->
+    <div class="tut">
+        <p class="title"> part </p>
+        <h1></h1>
+        <p class="description"></p>
+        <h2>Example:</h2>
+        <h3>
+            <code>
+
+            </code>
+        </h3>
+        <aside>Note:</aside>
+
+
+    </div>
+    <form>
+        <input type="button" value="display" onclick="display()" />
+        <input type="button" value="Stop!" onclick="stopdisplay()" />
+    </form>
+   
+    <script> 
+
+             //using setTimeout and clearTimeout    + using it with other functionalities other than alert in the script 
+        function display() {
+            t = setTimeout("alert('this is displayed after 10 seconds ')", 10000)
+            t = setTimeout("alert('this is displayed after 4 seconds ')", 4000)
+           
+
+        }
+        function stopdisplay()
+        {
+            clearTimeout(t)
+        }
+
+    </script>
+</body>
+</html>
+
